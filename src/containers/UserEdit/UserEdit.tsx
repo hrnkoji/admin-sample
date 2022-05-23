@@ -58,7 +58,9 @@ function UserEdit({ className }: { className?: string }) {
       }
 
       const { values }: ValidatedResult<Form> = form.validate();
-      console.log(values);        
+      // APIコール
+      // ここでToastを呼ぶ
+      console.log(values);
     },
     [form],
   );
