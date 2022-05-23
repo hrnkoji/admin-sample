@@ -73,7 +73,7 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
-.env.dev
+# .env.dev
 .env.staging
 .env.prod
 .env.production
