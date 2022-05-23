@@ -7,7 +7,6 @@
     "start": "env-cmd -f .env webpack serve",
     "start:staging": "env-cmd -f .env.staging webpack-dev-server -d",
     "dev": "env-cmd -f .env.dev webpack serve",
-    "mock": "json-server --watch db.json",
     "build": "run-s clean webpack:build",
     "build:local": "run-s clean webpack:build:local",
     "webpack:build:local": "env-cmd -f .env webpack --mode=production",
