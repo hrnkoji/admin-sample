@@ -12,11 +12,11 @@
 ## Install package
 
 ```
-npm i
+yarn
 ```
 
 ## Open dev env
 
 ```
-npm run dev
+yarn dev
 ```
